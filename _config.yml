@@ -1,0 +1,15 @@
+title: "My Curated Lists"
+description: "A growing collection of curated finds"
+theme: minima
+
+collections:
+  lists:
+    output: true
+    permalink: /lists/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "lists"
+    values:
+      layout: "list"
