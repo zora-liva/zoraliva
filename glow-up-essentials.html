@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Glow Up Essentials | Kaia Layn</title>
+
+<style>
+:root {
+  --bg: #fffaf8;
+  --card: #ffffff;
+  --text: #2f2623;
+  --muted: #8d7b74;
+  --accent: #6a3d2e;
+  --border: #f0e4de;
+  --soft-card: #f2e5e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.page-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--accent);
+}
+
+.subtitle {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin-bottom: 28px;
+}
+
+.product-card {
+  background: var(--soft-card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+  .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.product-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;        /* square images */
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+  border-radius: 12px;        /* soft rounded edges */
+}
+
+.product-card:hover img {
+  transform: scale(1.05);     /* subtle zoom */
+}
+
+.product-info {
+  padding: 18px;
+}
+
+.product-info h2 {
+  font-size: 1rem;
+  margin: 0 0 8px;
+  color: var(--accent);
+}
+
+.product-info p {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.product-info a {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.product-info a {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+}
+
+.product-info a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  background: #5a3326; /* slightly darker than your accent */
+}
+
+@media (max-width: 640px) {
+  .page-card {
+    padding: 22px;
+  }
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <a class="back-link" href="index.html">← Back to home</a>
+
+  <div class="page-card">
+
+    <h1>Glow Up Essentials</h1>
+
+    <p class="note">
+      As an Amazon Associate, I earn from qualifying purchases.
+    </p>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="images/2candles.png" alt="Product 1">
+        <div class="product-info">
+          <h2>BIODANCE Bio-Collagen Overnight Face Mask</h2>
+          <a href="https://amzn.to/4ehSPA5" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/sconces.png" alt="Product 4">
+        <div class="product-info">
+          <h2>K18 Leave-In Molecular Repair Hair Mask</h2>
+          <a href="https://amzn.to/4djN8k5" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/plantgarden.png" alt="Product 12">
+        <div class="product-info">
+          <h2>Estée Lauder Double Wear Stay-in-Place Flawless 24-Hour Concealer</h2>
+          <a href="https://amzn.to/4tAfufL" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/owala.png" alt="Product 2">
+        <div class="product-info">
+          <h2>LUMIFY Eye Drops for Brighter Eyes</h2>
+          <a href="https://amzn.to/4ehy07U" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/hairtool.png" alt="Product 3">
+        <div class="product-info">
+          <h2>Anua Niacinamide 10 + TXA 4 Serum</h2>
+          <a href="https://amzn.to/4ug2pIu" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/hotor.png" alt="Product 5">
+        <div class="product-info">
+          <h2>Codeage Multi Collagen Protein Powder Peptides</h2>
+          <a href="https://amzn.to/3QLi97R" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="images/isopure.png" alt="Product 6">
+        <div class="product-info">
+          <h2>grace & stella Retinol Under Eye Patches</h2>
+          <a href="https://amzn.to/4tfgK79" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+            <div class="product-card">
+        <img src="images/candlewarmer.png" alt="Product 7">
+        <div class="product-info">
+          <h2>Mulberry Silk Pillowcase for Hair and Skin</h2>
+          <a href="https://amzn.to/4tWAtcP" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+            <div class="product-card">
+        <img src="images/periodpanties.png" alt="Product 8">
+        <div class="product-info">
+          <h2>Wonderskin Wonder Blading All Day Lip Stain Masque</h2>
+          <a href="https://amzn.to/4unKXBF" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+            <div class="product-card">
+        <img src="images/webcam.png" alt="Product 9">
+        <div class="product-info">
+          <h2>It's a 10 Haircare Miracle Leave-In</h2>
+          <a href="https://amzn.to/4utj8rX" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+            <div class="product-card">
+        <img src="images/tnsbracelet.png" alt="Product 10">
+        <div class="product-info">
+          <h2>TOSOWOONG Arbutin 7% + Tranexamic Acid 4% Cream</h2>
+          <a href="https://amzn.to/4w44fOl" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+            <div class="product-card">
+        <img src="images/pickleball.png" alt="Product 11">
+        <div class="product-info">
+          <h2>Wonderskin Cream Blush Stick pH-Activated</h2>
+          <a href="https://amzn.to/4d0SFL0" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+
+
+                  <div class="product-card">
+        <img src="images/airfryer.png" alt="Product 13">
+        <div class="product-info">
+          <h2>Bella 4Qt Slim Air Fryer</h2>
+          <a href="https://amzn.to/4vUWJ8h" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                  <div class="product-card">
+        <img src="images/l360tag.png" alt="Product 14">
+        <div class="product-info">
+          <h2>Life360 Bluetooth Trackers for Keys, Wallets</h2>
+          <a href="https://amzn.to/3QFznDA" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                  <div class="product-card">
+        <img src="images/heatblanket.png" alt="Product 15">
+        <div class="product-info">
+          <h2>Greenoak Heated Electric Blanket</h2>
+          <a href="https://amzn.to/425cY5c" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                  <div class="product-card">
+        <img src="images/btspeaker.png" alt="Product 16">
+        <div class="product-info">
+          <h2>BolaButty Bluetooth Waterproof Speaker</h2>
+          <a href="https://amzn.to/4ujYqdW" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+                   <div class="product-card">
+        <img src="images/ltgreen2pc.png" alt="Product 17">
+        <div class="product-info">
+          <h2>Summer Skirt Sets Women 2 Piece Outfits</h2>
+          <a href="https://amzn.to/4t77Msr" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                    <div class="product-card">
+        <img src="images/chinmask.png" alt="Product 18">
+        <div class="product-info">
+          <h2>MAREE Lifting Double Chin Mask with 24K Gold</h2>
+          <a href="https://amzn.to/4n38SUT" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                    <div class="product-card">
+        <img src="images/toothbrush.png" alt="Product 19">
+        <div class="product-info">
+          <h2>Aquasonic Ultra Whitening Electric Toothbrush</h2>
+          <a href="https://amzn.to/4t9Z8JQ" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                    <div class="product-card">
+        <img src="images/earrings.png" alt="Product 20">
+        <div class="product-info">
+          <h2>Moissanite Earrings, 18K White Gold Plated</h2>
+          <a href="https://amzn.to/4ejSvRu" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                      <div class="product-card">
+        <img src="images/leggings.png" alt="Product 21">
+        <div class="product-info">
+          <h2>THE GYM PEOPLE Thick High Waist Yoga Pants with Pockets</h2>
+          <a href="https://amzn.to/42CVrBl" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                      <div class="product-card">
+        <img src="images/hairwaver.png" alt="Product 22">
+        <div class="product-info">
+          <h2>TYMO Beach Deep Wave Iron</h2>
+          <a href="https://amzn.to/4cWbJdt" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                      <div class="product-card">
+        <img src="images/aquasonic.png" alt="Product 23">
+        <div class="product-info">
+          <h2>AquaSonic Water Flosser</h2>
+          <a href="https://amzn.to/49dxpR5" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                       <div class="product-card">
+        <img src="images/furnmovers.png" alt="Product 24">
+        <div class="product-info">
+          <h2>Heavy Duty Furniture Movers</h2>
+          <a href="https://amzn.to/4eoLb7b" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                        <div class="product-card">
+        <img src="images/2pcloungeblack.png" alt="Product 25">
+        <div class="product-info">
+          <h2>Two Piece Summer Lounge Set</h2>
+          <a href="https://amzn.to/4tGjwDc" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                  <div class="product-card">
+        <img src="images/catan.png" alt="Product 26">
+        <div class="product-info">
+          <h2>CATAN Board Game, Strategy</h2>
+          <a href="https://amzn.to/4eTJBKt" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                  <div class="product-card">
+        <img src="images/telestrations.png" alt="Product 27">
+        <div class="product-info">
+          <h2>Telestrations: Adult Board Game</h2>
+          <a href="https://amzn.to/4cURAUW" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+                  <div class="product-card">
+        <img src="images/microphone.png" alt="Product 28">
+        <div class="product-info">
+          <h2>Wireless Mini Microphone, ClearVoice™</h2>
+          <a href="https://amzn.to/4cM33pO" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                   <div class="product-card">
+        <img src="images/massagegun.png" alt="Product 29">
+        <div class="product-info">
+          <h2>TOLOCO Massage Gun, Deep Tissue</h2>
+          <a href="https://amzn.to/4unrLUY" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+                    <div class="product-card">
+        <img src="images/neckfan.png" alt="Product 30">
+        <div class="product-info">
+          <h2>Portable Neck Fan</h2>
+          <a href="https://amzn.to/4n0Xed2" target="_blank" rel="nofollow sponsored">
+            Shop on Amazon
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
